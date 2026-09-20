@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://nivora.example/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/ar/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/en/shop/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/ar/shop/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/en/story/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/story/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/story/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/ar/story/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/story/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/story/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/en/journal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/journal/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/journal/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/ar/journal/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/journal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/journal/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/en/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/contact/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/ar/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/contact/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/en/shop/1/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/1/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/1/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/ar/shop/1/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/1/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/1/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/en/shop/2/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/2/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/2/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/ar/shop/2/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/2/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/2/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/en/shop/3/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/3/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/3/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/ar/shop/3/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/3/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/3/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/en/shop/4/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/4/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/4/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/ar/shop/4/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/4/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/4/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/en/shop/5/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/5/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/5/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/ar/shop/5/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/5/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/5/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/en/shop/6/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/6/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/6/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/ar/shop/6/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/6/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/6/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/en/shop/7/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/7/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/7/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/ar/shop/7/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/7/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/7/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/en/shop/8/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/8/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/8/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/ar/shop/8/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/8/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/8/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/en/shop/9/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/9/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/9/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/ar/shop/9/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/9/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/9/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/en/shop/10/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/10/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/10/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/ar/shop/10/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/10/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/10/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/en/shop/11/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/11/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/11/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/ar/shop/11/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/11/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/11/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/en/shop/12/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/12/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/12/"/>
+  </url>
+  <url>
+    <loc>https://nivora.example/ar/shop/12/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nivora.example/ar/shop/12/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nivora.example/en/shop/12/"/>
+  </url>
+</urlset>
