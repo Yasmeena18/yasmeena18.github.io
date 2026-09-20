@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Checkout | Nivora</title><meta name="description" content="Secure demo checkout."><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="canonical" href="https://nivora.example/en/checkout/"><link rel="alternate" hreflang="en" href="https://nivora.example/en/checkout/"><link rel="alternate" hreflang="ar" href="https://nivora.example/ar/checkout/"><meta property="og:type" content="website"><meta property="og:title" content="Checkout | Nivora"><meta property="og:description" content="Secure demo checkout."><meta property="og:image" content="https://images.unsplash.com/photo-1485462537746-965f33f7f6a7?w=1200&amp;q=80&amp;auto=format&amp;fit=crop"><meta name="twitter:card" content="summary_large_image"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&family=Aref+Ruqaa:wght@400;700&family=Tajawal:wght@300;400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="/_astro/flow.CSQwNL7A.css"><link rel="stylesheet" href="/_astro/Base.BqT-ocxl.css"></head><body><header class="site-header"><nav class="nav container"><div class="nav-links"><a href="/en/shop">Collections</a><a href="/en/shop">Shop</a><a href="/en/story">Our Story</a><a href="/en/journal">Journal</a></div><a href="/en" class="logo">N<span class="accent">i</span>vora</a><div class="nav-actions"><a class="icon-btn" id="search-btn" href="/en/shop?focus=1" aria-label="Search"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg></a><a class="icon-btn" href="/en/account" aria-label="Account"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"></circle><path d="M4 20c0-4 4-6 8-6s8 2 8 6"></path></svg></a><a href="/en/wishlist" style="position:relative" aria-label="Wishlist"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20.5c-5.5-3.6-8.5-6.9-8.5-10.4C3.5 7 5.5 5 8 5c1.6 0 3.1.9 4 2.3C12.9 5.9 14.4 5 16 5c2.5 0 4.5 2 4.5 5.1 0 3.5-3 6.8-8.5 10.4Z"></path></svg><span class="hcount" id="wish-count" style="display:none">0</span></a><a href="/en/cart" style="position:relative" aria-label="Cart"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 8h12l-1 12H7L6 8Z"></path><path d="M9 8V6a3 3 0 0 1 6 0v2"></path></svg><span class="hcount" id="bag-count" style="display:none">0</span></a><a href="/ar" class="lang-switch" aria-label="Switch language">عربي</a><button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button></div></nav></header><div class="mobile-menu" id="mobile-menu" aria-hidden="true"><button class="mm-close" id="mm-close" aria-label="Close">✕</button><nav class="mm-links"><a href="/en/shop">Collections</a><a href="/en/shop">Shop</a><a href="/en/story">Our Story</a><a href="/en/journal">Journal</a><a href="/ar" class="mm-lang">عربي</a></nav></div><main><main class="container flow"><header class="flow-head"><p class="eyebrow">SECURE CHECKOUT</p><h1>Checkout</h1></header><div class="steps" id="steps"><div class="step on" data-s="1"><span class="n">1</span>Contact &amp; Shipping</div><div class="step" data-s="2"><span class="n">2</span>Payment</div><div class="step" data-s="3"><span class="n">3</span>Review</div></div><div id="flow-data" data-t="{&quot;eyebrow&quot;:&quot;SECURE CHECKOUT&quot;,&quot;title&quot;:&quot;Checkout&quot;,&quot;s1&quot;:&quot;Contact &amp; Shipping&quot;,&quot;s2&quot;:&quot;Payment&quot;,&quot;s3&quot;:&quot;Review&quot;,&quot;name&quot;:&quot;FULL NAME&quot;,&quot;email&quot;:&quot;EMAIL&quot;,&quot;phone&quot;:&quot;PHONE&quot;,&quot;city&quot;:&quot;CITY&quot;,&quot;address&quot;:&quot;STREET ADDRESS&quot;,&quot;card&quot;:&quot;CARD NUMBER&quot;,&quot;exp&quot;:&quot;EXPIRY (MM/YY)&quot;,&quot;cvv&quot;:&quot;CVV&quot;,&quot;cardName&quot;:&quot;NAME ON CARD&quot;,&quot;next&quot;:&quot;CONTINUE&quot;,&quot;back&quot;:&quot;Back&quot;,&quot;place&quot;:&quot;PLACE ORDER&quot;,&quot;errors&quot;:{&quot;name&quot;:&quot;Please enter your name&quot;,&quot;email&quot;:&quot;Please enter a valid email&quot;,&quot;phone&quot;:&quot;Please enter a valid phone&quot;,&quot;city&quot;:&quot;Please enter your city&quot;,&quot;address&quot;:&quot;Please enter your address&quot;,&quot;card&quot;:&quot;Enter a 16-digit card number&quot;,&quot;exp&quot;:&quot;MM/YY format&quot;,&quot;cvv&quot;:&quot;3 digits&quot;,&quot;cardName&quot;:&quot;Required&quot;},&quot;mock&quot;:&quot;Demo checkout — no real payment is processed.&quot;,&quot;successTitle&quot;:&quot;Order confirmed&quot;,&quot;successSub&quot;:&quot;Thank you. Your order number:&quot;,&quot;successNote&quot;:&quot;A confirmation would arrive by email in a real deployment.&quot;,&quot;home&quot;:&quot;BACK TO THE HOUSE&quot;}" hidden></div><div id="ck-root"></div></main></main><footer class="site-footer"><div class="footer-inner container"><span class="logo">N<span class="accent">i</span>vora</span><span>© 2026 Nivora — All rights reserved</span><span>Crafted with precision</span></div></footer><script type="module">var e=document.getElementById(`burger`),t=document.getElementById(`mobile-menu`),n=document.getElementById(`mm-close`),r=n=>{e?.setAttribute(`aria-expanded`,String(n)),t?.setAttribute(`aria-hidden`,String(!n)),document.body.style.overflow=n?`hidden`:``};e?.addEventListener(`click`,()=>r(e.getAttribute(`aria-expanded`)!==`true`)),n?.addEventListener(`click`,()=>r(!1)),t?.querySelectorAll(`a`).forEach(e=>e.addEventListener(`click`,()=>r(!1))),document.addEventListener(`keydown`,e=>{e.key===`Escape`&&r(!1)});var i=(e,t)=>{try{return JSON.parse(localStorage.getItem(e))||t}catch{return t}},a=()=>{let e=i(`nivora_bag`,[]).length,t=i(`nivora_wish`,[]).length,n=document.getElementById(`bag-count`),r=document.getElementById(`wish-count`);n&&(n.textContent=e,n.style.display=e?``:`none`),r&&(r.textContent=t,r.style.display=t?``:`none`)};window.nivoraBump=a,a();</script></body></html><script>
+<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Checkout | Nivora</title><meta name="description" content="Secure demo checkout."><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="canonical" href="https://nivora.example/en/checkout/"><link rel="alternate" hreflang="en" href="https://nivora.example/en/checkout/"><link rel="alternate" hreflang="ar" href="https://nivora.example/ar/checkout/"><meta property="og:type" content="website"><meta property="og:title" content="Checkout | Nivora"><meta property="og:description" content="Secure demo checkout."><meta property="og:image" content="https://images.unsplash.com/photo-1485462537746-965f33f7f6a7?w=1200&amp;q=80&amp;auto=format&amp;fit=crop"><meta name="twitter:card" content="summary_large_image"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&family=Aref+Ruqaa:wght@400;700&family=Tajawal:wght@300;400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="/_astro/flow.CaHTb4Bl.css"><link rel="stylesheet" href="/_astro/Base.BqT-ocxl.css"></head><body><header class="site-header"><nav class="nav container"><div class="nav-links"><a href="/en/shop">Collections</a><a href="/en/shop">Shop</a><a href="/en/story">Our Story</a><a href="/en/journal">Journal</a></div><a href="/en" class="logo">N<span class="accent">i</span>vora</a><div class="nav-actions"><a class="icon-btn" id="search-btn" href="/en/shop?focus=1" aria-label="Search"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg></a><a class="icon-btn" href="/en/account" aria-label="Account"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"></circle><path d="M4 20c0-4 4-6 8-6s8 2 8 6"></path></svg></a><a href="/en/wishlist" style="position:relative" aria-label="Wishlist"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20.5c-5.5-3.6-8.5-6.9-8.5-10.4C3.5 7 5.5 5 8 5c1.6 0 3.1.9 4 2.3C12.9 5.9 14.4 5 16 5c2.5 0 4.5 2 4.5 5.1 0 3.5-3 6.8-8.5 10.4Z"></path></svg><span class="hcount" id="wish-count" style="display:none">0</span></a><a href="/en/cart" style="position:relative" aria-label="Cart"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 8h12l-1 12H7L6 8Z"></path><path d="M9 8V6a3 3 0 0 1 6 0v2"></path></svg><span class="hcount" id="bag-count" style="display:none">0</span></a><a href="/ar" class="lang-switch" aria-label="Switch language">عربي</a><button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button></div></nav></header><div class="mobile-menu" id="mobile-menu" aria-hidden="true"><button class="mm-close" id="mm-close" aria-label="Close">✕</button><nav class="mm-links"><a href="/en/shop">Collections</a><a href="/en/shop">Shop</a><a href="/en/story">Our Story</a><a href="/en/journal">Journal</a><a href="/ar" class="mm-lang">عربي</a></nav></div><main><main class="container flow"><header class="flow-head"><p class="eyebrow">SECURE CHECKOUT</p><h1>Checkout</h1></header><div class="steps" id="steps"><div class="step on" data-s="1"><span class="n">1</span>Shipping Details</div><div class="step" data-s="2"><span class="n">2</span>Payment Method</div><div class="step" data-s="3"><span class="n">3</span>Review</div></div><div id="flow-data" data-t="{&quot;eyebrow&quot;:&quot;SECURE CHECKOUT&quot;,&quot;title&quot;:&quot;Checkout&quot;,&quot;s1&quot;:&quot;Shipping Details&quot;,&quot;s2&quot;:&quot;Payment Method&quot;,&quot;s3&quot;:&quot;Review&quot;,&quot;name&quot;:&quot;FULL NAME&quot;,&quot;email&quot;:&quot;EMAIL&quot;,&quot;phone&quot;:&quot;PHONE&quot;,&quot;city&quot;:&quot;CITY&quot;,&quot;address&quot;:&quot;STREET ADDRESS&quot;,&quot;next&quot;:&quot;CONTINUE&quot;,&quot;back&quot;:&quot;Back&quot;,&quot;place&quot;:&quot;PLACE ORDER&quot;,&quot;payTitle&quot;:&quot;How would you like to pay?&quot;,&quot;methods&quot;:{&quot;cod&quot;:{&quot;label&quot;:&quot;Cash on Delivery&quot;,&quot;desc&quot;:&quot;Pay when your order arrives — the simplest way.&quot;},&quot;vf&quot;:{&quot;label&quot;:&quot;Vodafone Cash&quot;,&quot;desc&quot;:&quot;Transfer to 010 1234 5678, then enter the reference number.&quot;},&quot;or&quot;:{&quot;label&quot;:&quot;Orange Cash&quot;,&quot;desc&quot;:&quot;Transfer to 012 1234 5678, then enter the reference number.&quot;},&quot;et&quot;:{&quot;label&quot;:&quot;Etisalat Cash&quot;,&quot;desc&quot;:&quot;Transfer to 011 1234 5678, then enter the reference number.&quot;},&quot;we&quot;:{&quot;label&quot;:&quot;WE Cash&quot;,&quot;desc&quot;:&quot;Transfer to 015 1234 5678, then enter the reference number.&quot;},&quot;ip&quot;:{&quot;label&quot;:&quot;InstaPay&quot;,&quot;desc&quot;:&quot;Transfer via InstaPay, then enter the reference number.&quot;}},&quot;ref&quot;:&quot;TRANSFER REFERENCE NUMBER&quot;,&quot;errors&quot;:{&quot;name&quot;:&quot;Please enter your name&quot;,&quot;email&quot;:&quot;Please enter a valid email&quot;,&quot;phone&quot;:&quot;Please enter a valid phone&quot;,&quot;city&quot;:&quot;Please enter your city&quot;,&quot;address&quot;:&quot;Please enter your address&quot;,&quot;ref&quot;:&quot;Enter the transfer reference (at least 4 digits)&quot;},&quot;mock&quot;:&quot;Demo checkout — no real payment is processed.&quot;,&quot;successTitle&quot;:&quot;Order confirmed&quot;,&quot;successSub&quot;:&quot;Thank you. Your order number:&quot;,&quot;successPay&quot;:&quot;Payment method&quot;,&quot;successNote&quot;:&quot;A confirmation would arrive by email in a real deployment.&quot;,&quot;home&quot;:&quot;BACK TO THE HOUSE&quot;}" hidden></div><div id="ck-root"></div></main></main><footer class="site-footer"><div class="footer-inner container"><span class="logo">N<span class="accent">i</span>vora</span><span>© 2026 Nivora — All rights reserved</span><span>Crafted with precision</span></div></footer><script type="module">var e=document.getElementById(`burger`),t=document.getElementById(`mobile-menu`),n=document.getElementById(`mm-close`),r=n=>{e?.setAttribute(`aria-expanded`,String(n)),t?.setAttribute(`aria-hidden`,String(!n)),document.body.style.overflow=n?`hidden`:``};e?.addEventListener(`click`,()=>r(e.getAttribute(`aria-expanded`)!==`true`)),n?.addEventListener(`click`,()=>r(!1)),t?.querySelectorAll(`a`).forEach(e=>e.addEventListener(`click`,()=>r(!1))),document.addEventListener(`keydown`,e=>{e.key===`Escape`&&r(!1)});var i=(e,t)=>{try{return JSON.parse(localStorage.getItem(e))||t}catch{return t}},a=()=>{let e=i(`nivora_bag`,[]).length,t=i(`nivora_wish`,[]).length,n=document.getElementById(`bag-count`),r=document.getElementById(`wish-count`);n&&(n.textContent=e,n.style.display=e?``:`none`),r&&(r.textContent=t,r.style.display=t?``:`none`)};window.nivoraBump=a,a();</script></body></html><script>
   const lang = document.documentElement.lang;
   const t = JSON.parse(document.getElementById('flow-data').dataset.t);
   const L = (en, ar) => (lang === 'ar' ? ar : en);
@@ -6,12 +6,19 @@
   const get = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) || d; } catch { return d; } };
   const root = document.getElementById('ck-root');
   let step = 1;
-  const data = { name: '', email: '', phone: '', city: '', address: '', card: '', exp: '', cvv: '', cardName: '' };
+  const data = { name: '', email: '', phone: '', city: '', address: '', pay: 'cod', ref: '' };
   let orderNo = '';
 
   const field = (id, label, val, half) =>
     '<div class="f-field' + (half ? '' : ' full') + '" id="w-' + id + '"><label for="' + id + '">' + label + '</label>' +
     '<input id="' + id + '" value="' + (val || '') + '"><span class="f-err"></span></div>';
+
+  const payCard = (key) => {
+    const m = t.methods[key];
+    return '<label class="pay-opt' + (data.pay === key ? ' on' : '') + '" data-p="' + key + '">' +
+      '<input type="radio" name="pay" value="' + key + '"' + (data.pay === key ? ' checked' : '') + '>' +
+      '<span class="po-dot"></span><span class="po-txt"><b>' + m.label + '</b><small>' + m.desc + '</small></span></label>';
+  };
 
   const render = () => {
     document.querySelectorAll('.step').forEach((s) => {
@@ -29,20 +36,26 @@
         field('address', t.address, data.address) +
         '</div><div class="f-actions"><span></span><button type="submit" class="btn btn-solid">' + t.next + '</button></div></form>';
     } else if (step === 2) {
-      root.innerHTML = '<form class="form-card" id="ck-form"><div class="f-grid">' +
-        field('card', t.card, data.card) + field('cardName', t.cardName, data.cardName) +
-        field('exp', t.exp, data.exp, true) + field('cvv', t.cvv, data.cvv, true) +
-        '</div><p class="mock-note">' + t.mock + '</p>' +
+      root.innerHTML = '<form class="form-card" id="ck-form">' +
+        '<p class="pay-title">' + t.payTitle + '</p><div class="pay-list">' +
+        payCard('cod') + payCard('vf') + payCard('or') + payCard('et') + payCard('we') + payCard('ip') +
+        '</div>' +
+        (data.pay !== 'cod' ? field('ref', t.ref, data.ref) : '') +
+        '<p class="mock-note">' + t.mock + '</p>' +
         '<div class="f-actions"><button type="button" class="btn btn-outline" id="back">' + t.back + '</button><button type="submit" class="btn btn-solid">' + t.next + '</button></div></form>';
+      root.querySelectorAll('.pay-opt').forEach((o) => o.addEventListener('click', () => {
+        data.pay = o.dataset.p; render();
+      }));
     } else if (step === 3) {
       root.innerHTML = '<div class="form-card">' +
         '<div class="rev-box"><b>' + t.s1 + '</b>' + data.name + ' · ' + data.email + '<br>' + data.city + ' — ' + data.address + '</div>' +
-        '<div class="rev-box"><b>' + t.s2 + '</b>•••• •••• •••• ' + data.card.slice(-4) + '</div>' +
+        '<div class="rev-box"><b>' + t.s2 + '</b>' + t.methods[data.pay].label + (data.ref ? ' · ' + L('Ref', 'مرجع') + ' ' + data.ref : '') + '</div>' +
         '<div class="rev-box"><b>' + L('ORDER', 'الطلب') + ' (' + items.length + ')</b>' + fmt(total) + '</div>' +
         '<div class="f-actions"><button class="btn btn-outline" id="back">' + t.back + '</button><button class="btn btn-solid" id="place">' + t.place + '</button></div></div>';
     } else {
       root.innerHTML = '<div class="success"><div class="tick">✓</div><h2>' + t.successTitle + '</h2>' +
         '<p>' + t.successSub + '</p><p class="order-no">NV-' + orderNo + '</p>' +
+        '<p class="pay-line">' + t.successPay + ': <b>' + t.methods[data.pay].label + '</b></p>' +
         '<p class="mock-note">' + t.successNote + '</p>' +
         '<a href="/' + lang + '" class="btn btn-outline" style="margin-top:22px">' + t.home + '</a></div>';
       localStorage.removeItem('nivora_bag');
@@ -56,22 +69,30 @@
     });
     document.getElementById('ck-form')?.addEventListener('submit', (e) => {
       e.preventDefault();
-      const ids = step === 1 ? ['name', 'email', 'phone', 'city', 'address'] : ['card', 'cardName', 'exp', 'cvv'];
-      const rules = {
-        name: (v) => v.trim().length > 1, email: (v) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v),
-        phone: (v) => /^[0-9+\s]{8,}$/.test(v), city: (v) => v.trim().length > 1, address: (v) => v.trim().length > 3,
-        card: (v) => /^[0-9]{16}$/.test(v.replace(/\s/g, '')), cardName: (v) => v.trim().length > 1,
-        exp: (v) => /^[0-9]{2}\/[0-9]{2}$/.test(v), cvv: (v) => /^[0-9]{3}$/.test(v),
-      };
       let ok = true;
-      ids.forEach((id) => {
-        const el = document.getElementById(id);
-        data[id] = el.value;
-        const good = rules[id](el.value);
-        document.getElementById('w-' + id).classList.toggle('has-error', !good);
-        document.getElementById('w-' + id).querySelector('.f-err').textContent = good ? '' : t.errors[id];
-        if (!good) ok = false;
-      });
+      const mark = (id, bad, msg) => {
+        const w = document.getElementById('w-' + id);
+        if (!w) return;
+        w.classList.toggle('has-error', bad);
+        w.querySelector('.f-err').textContent = bad ? msg : '';
+        if (bad) ok = false;
+      };
+      if (step === 1) {
+        const vals = { name: document.getElementById('name').value, email: document.getElementById('email').value,
+          phone: document.getElementById('phone').value, city: document.getElementById('city').value, address: document.getElementById('address').value };
+        Object.assign(data, vals);
+        mark('name', vals.name.trim().length < 2, t.errors.name);
+        mark('email', !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(vals.email), t.errors.email);
+        mark('phone', !/^[0-9+\s]{8,}$/.test(vals.phone), t.errors.phone);
+        mark('city', vals.city.trim().length < 1, t.errors.city);
+        mark('address', vals.address.trim().length < 3, t.errors.address);
+      } else if (step === 2) {
+        if (data.pay !== 'cod') {
+          const ref = document.getElementById('ref').value.trim();
+          data.ref = ref;
+          mark('ref', ref.length < 4, t.errors.ref);
+        }
+      }
       if (ok) { step++; render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
     });
   };
